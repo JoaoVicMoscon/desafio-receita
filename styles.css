@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebe0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p, ul, ol {
+    color: #555;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  .prep-time, .ingredients, .instructions, .nutrition {
+    margin-top: 20px;
+  }
+  
+  .instructions ol {
+    list-style-type: decimal;
+  }
